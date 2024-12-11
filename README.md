@@ -18,6 +18,7 @@
 ## ⭐ 图片教程步骤
 
 1.  复制nba2kol2.js到金山文档中。按照下列操作步骤进行配置，运行脚本即可生成领取腾讯爱玩nba2kol2礼包。\
+2.  ![替代文本]([图片链接地址](https://imgse.com/i/pAHh5dS) "可选的标题文本")
     ![步骤一](https://imgse.com/i/pAHh5dS "实例图片")
     ![步骤二](https://imgse.com/i/pAHhTiQ)
     ![步骤三](https://imgse.com/i/pAHhHRs)
