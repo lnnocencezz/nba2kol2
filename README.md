@@ -18,29 +18,28 @@
 ## ⭐ 图片教程步骤
 
 1.  复制nba2kol2.js到金山文档中。按照下列操作步骤进行配置，运行脚本即可生成领取腾讯爱玩nba2kol2礼包。\
-2.  ![替代文本]([图片链接地址](https://imgse.com/i/pAHh5dS) "可选的标题文本")
-    ![步骤一](https://imgse.com/i/pAHh5dS "实例图片")
-    ![步骤二](https://imgse.com/i/pAHhTiQ)
-    ![步骤三](https://imgse.com/i/pAHhHRs)
-    ![步骤四](https://imgse.com/i/pAHhIIg)
-    ![步骤五](https://imgse.com/i/pAHh7Gj)
+    ![步骤一](https://s21.ax1x.com/2024/12/11/pAHh5dS.png)
+2.  新增脚本，版本选择1.0,2.0 beta版本中写法不一致
+   ![步骤二](https://s21.ax1x.com/2024/12/11/pAHhTiQ.png)
+3.  脚本名称可以任意填写。将本项目中的nba2kol2.js代码复制到wps编辑器中
+   ![步骤三](https://s21.ax1x.com/2024/12/11/pAHhHRs.png)
+4.  添加服务，将三个服务都添加上
+    ![pAHhIIg.png](https://s21.ax1x.com/2024/12/11/pAHhIIg.png)
+5.  这里分三个端礼包，
+       *   PC端 需要复制https://iwan.video.qq.com/game-community/game-center/home?ztid=i84uks67xq 到浏览器中，按F12在console窗口中输入document.cookie 获取PC端cookie
+       *   APP端 需要通过抓包工具获取，这里推荐Stream,具体使用方法请自行查阅
+       *   小程序端 同APP端
 
-## 🚀 推送逻辑流程
 
-参考TEMPLATE.js使用案例脚本，将推送相关的代码复制到你的脚本中。\
-当你的脚本调用**writeMessage**函数时，此函数会将消息写入CONFIG表中。\
-等到PUSH定时任务执行时，会自动检索CONFIG表中的消息，并进行推送。
+## 🚀 推送结果
+![bark推送通知](https://s21.ax1x.com/2024/12/11/pAHTVcd.jpg)
 
-
-**加入消息池：**\
-这个的意思是“加入消息池”选项勾选“是”的就会合并为一条消息进行通知，以@all方式推送。例如你运行了8个签到任务，那么在某个时刻只收到1条通知消息。\
-默认为“否”，代表每个签到结果都用独立的一条消息通知。例如你运行了8个签到任务，那么在某个时刻会同时收到8条通知消息。
 
 ## 🤝 欢迎参与贡献
 
 欢迎各种形式的贡献
 
-[![](https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black\&style=for-the-badge)](https://github.com/imoki/wpsPush/pulls)
+[![](https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black\&style=for-the-badge)](https://github.com/lnnocencezz/nba2kol2/pulls)
 
 
 ## 📝 更新日志
